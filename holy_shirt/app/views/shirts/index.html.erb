@@ -1,0 +1,18 @@
+<h1>Welcome to Holy Shirt</h1>
+
+<h3>Here are our Shirts </h3>
+
+<table>
+	<tr>
+		<td>Name</td>
+		<td>Description</td>
+	</tr>
+
+	<% @shirts.each do |shirt| %>
+		<tr>
+			<td><%= shirt.name %></td>
+			<td><%= shirt.description %></td>
+		</tr>
+	<% end %>
+
+</table>
