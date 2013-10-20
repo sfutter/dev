@@ -1,0 +1,13 @@
+<%= form_for([@movie, @movie.ratings.build]) do |f| %>
+  <p>
+    <%= f.label :rater %><br />
+    <%= f.text_field :rater %>
+  </p>
+  <p>
+    <%= f.label :rating %><br />
+    <%= f.text_area :rating %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
