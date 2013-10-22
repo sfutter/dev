@@ -7,3 +7,9 @@
   <strong>Rating:</strong>
   <%= rating.rating %>
 </p>
+
+<p>
+  <%= link_to 'Destroy Rating', [rating.movie, rating],
+               method: :delete,
+               data: { confirm: 'Are you sure?' } %>
+</p>

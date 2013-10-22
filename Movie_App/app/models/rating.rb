@@ -1,4 +1,5 @@
 class Rating < ActiveRecord::Base
+  	
   	belongs_to :movie
 
 	validate :rating_must_be_number_between_1_and_5

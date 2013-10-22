@@ -14,14 +14,13 @@
 </p>
 
 
+
 <h2>Ratings</h2>
 <%= render @movie.ratings %>
-
+ 
 <h2>Add a rating:</h2>
 <%= render "ratings/form" %>
 
 
 
 <%= link_to 'Back', movies_path %> | <%= link_to 'Edit', edit_movie_path(@movie) %>
-
-

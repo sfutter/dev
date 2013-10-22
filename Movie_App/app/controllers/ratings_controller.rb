@@ -8,4 +8,7 @@ class RatingsController < ApplicationController
 	    redirect_to movie_path(@movie)
 	end
 
+
 end
+
+
